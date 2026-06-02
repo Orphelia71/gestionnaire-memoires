@@ -11,7 +11,7 @@ RUN docker-php-ext-install pdo pdo_mysql mysqli
 COPY . /var/www/html/
 
 # Donne les bonnes permissions aux fichiers
-RUN chown -W www-data:www-data /var/www/html
+RUN chown -R www-data:www-data /var/www/html
 
 # Expose le port 80 pour le serveur web
 EXPOSE 80
