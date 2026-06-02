@@ -50,6 +50,7 @@ $memoires = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <button type="submit">Appliquer les filtres</button>
         </form>
     </div>
+    <a href="login.php" class="button">Se connecter</a>
 
     <h3>Mémoires disponibles (<?= count($memoires) ?>)</h3>
     <div>

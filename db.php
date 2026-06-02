@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$dbname = 'gestion_memoires';
-$username = 'root';
-$password = ''; 
+$host = 'sql200.infinityfree.com';
+$dbname = 'if0_42080579_gestion_memoires';
+$username = 'if0_42080579';
+$password = 'Orphe006'; 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
